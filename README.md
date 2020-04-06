@@ -1,4 +1,4 @@
-This repo is a demo for broken type inference of rustc when using serde_json crate.
+This repo is a demo of how including serde_json into a module brakes some of the type inference in a WHOLE package
 ```rust
 // this line brakes type inference:
 use serde_json;

@@ -1,6 +1,8 @@
 // works just fine without this line
 use serde_json;
 
+mod other_broken;
+
 #[cfg(test)]
 mod test {
     use std::collections::LinkedList;
